@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vimukthiya Sandun | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Devicon -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">Vimukthiya Sandun</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <div class="theme-toggle" id="theme-toggle" title="Toggle Light/Dark Mode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="container home-content">
+            <div class="home-text">
+                <h1 class="hero-title">Hi, I'm <span class="gradient-text-1">Vimukthiya</span><br><span class="gradient-text-2">Sandun</span></h1>
+                <h3>And I'm a <span class="typing">Full-Stack Software Developer </span></h3>
+                <p>Motivated final-year IT student with a strong foundation in full-stack development. Eager to leverage my technical and problem-solving skills to build seamless digital experiences.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/sandunkumara163" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vimukthiyasandun" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:sandunkumara163@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="btn-group">
+                    <a href="#contact" class="btn">Hire Me</a>
+                    <a href="assets/Vimukthiya_Sandun_CV.pdf" download class="btn btn-outline">Download CV</a>
+                </div>
+            </div>
+            <div class="home-img">
+                <div class="img-box">
+                    <img src="assets/img/profile.jpg" alt="Vimukthiya Sandun">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="assets/img/profile.jpg" alt="Vimukthiya Sandun">
+                </div>
+                <div class="about-text">
+                    <h3 class="about-heading">A Passionate <span>Full-Stack Developer</span> Based in Sri Lanka</h3>
+                    <p>Motivated final-year IT student with a strong foundation in full-stack development. Experienced in Java, JavaScript, C#, PHP, and modern frameworks like React, Node.js and Laravel.</p>
+                    <p>Skilled in designing web and desktop applications, making databases efficient, and automating tasks. I am currently gaining valuable industry experience as an IT Intern at NAICC (National Agriculture Information and Communication Centre) under the Department of Agriculture.</p>
+                    
+                    <div class="about-stats">
+                        <div class="stat-box">
+                            <i class="fas fa-desktop"></i>
+                            <h4>4+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-code"></i>
+                            <h4>15+</h4>
+                            <p>Technologies</p>
+                        </div>
+                        <div class="stat-box">
+                            <i class="fas fa-check-circle"></i>
+                            <h4>100%</h4>
+                            <p>Commitment</p>
+                        </div>
+                    </div>
+                    
+                    <div class="about-tags">
+                        <span>Full-Stack Developer</span>
+                        <span>Problem Solver</span>
+                        <span>Clean Code Advocate</span>
+                        <span>Quick Learner</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span>Skills</span></h2>
+            
+            <div class="skill-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="database">Database</button>
+                <button class="filter-btn" data-filter="languages">Languages</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-box" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-html5-plain colored"></i></div>
+                    <h4>HTML5</h4>
+                    <span class="skill-cat">Frontend</span>
+                </div>
+                <div class="skill-box" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-css3-plain colored"></i></div>
+                    <h4>CSS3</h4>
+                    <span class="skill-cat">Frontend</span>
+                </div>
+                <div class="skill-box" data-category="frontend languages">
+                    <div class="skill-icon"><i class="devicon-javascript-plain colored"></i></div>
+                    <h4>JavaScript</h4>
+                    <span class="skill-cat">Frontend</span>
+                </div>
+                <div class="skill-box" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-react-original colored"></i></div>
+                    <h4>React</h4>
+                    <span class="skill-cat">Frontend</span>
+                </div>
+                <div class="skill-box" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-tailwindcss-plain colored"></i></div>
+                    <h4>Tailwind CSS</h4>
+                    <span class="skill-cat">Frontend</span>
+                </div>
+                <div class="skill-box" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-nodejs-plain colored"></i></div>
+                    <h4>Node.js</h4>
+                    <span class="skill-cat">Backend</span>
+                </div>
+                <div class="skill-box" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-express-original colored"></i></div>
+                    <h4>Express.js</h4>
+                    <span class="skill-cat">Backend</span>
+                </div>
+                <div class="skill-box" data-category="backend languages">
+                    <div class="skill-icon"><i class="devicon-php-plain colored"></i></div>
+                    <h4>PHP</h4>
+                    <span class="skill-cat">Backend</span>
+                </div>
+                <div class="skill-box" data-category="backend">
+                    <div class="skill-icon"><i class="devicon-laravel-plain colored"></i></div>
+                    <h4>Laravel</h4>
+                    <span class="skill-cat">Backend</span>
+                </div>
+                <div class="skill-box" data-category="languages backend">
+                    <div class="skill-icon"><i class="devicon-java-plain colored"></i></div>
+                    <h4>Java</h4>
+                    <span class="skill-cat">Languages</span>
+                </div>
+                <div class="skill-box" data-category="languages backend">
+                    <div class="skill-icon"><i class="devicon-csharp-plain colored"></i></div>
+                    <h4>C#</h4>
+                    <span class="skill-cat">Languages</span>
+                </div>
+                <div class="skill-box" data-category="languages">
+                    <div class="skill-icon"><i class="devicon-kotlin-plain colored"></i></div>
+                    <h4>Kotlin</h4>
+                    <span class="skill-cat">Languages</span>
+                </div>
+                <div class="skill-box" data-category="frontend">
+                    <div class="skill-icon"><i class="devicon-android-plain colored"></i></div>
+                    <h4>Jetpack Compose</h4>
+                    <span class="skill-cat">Frontend</span>
+                </div>
+                <div class="skill-box" data-category="database">
+                    <div class="skill-icon"><i class="devicon-postgresql-plain colored"></i></div>
+                    <h4>PostgreSQL</h4>
+                    <span class="skill-cat">Database</span>
+                </div>
+                <div class="skill-box" data-category="database">
+                    <div class="skill-icon"><i class="devicon-mysql-plain colored"></i></div>
+                    <h4>MySQL</h4>
+                    <span class="skill-cat">Database</span>
+                </div>
+                <div class="skill-box" data-category="database">
+                    <div class="skill-icon"><i class="devicon-mongodb-plain colored"></i></div>
+                    <h4>MongoDB</h4>
+                    <span class="skill-cat">Database</span>
+                </div>
+                <div class="skill-box" data-category="database">
+                    <div class="skill-icon"><i class="devicon-sqldeveloper-plain colored"></i></div>
+                    <h4>SQLite</h4>
+                    <span class="skill-cat">Database</span>
+                </div>
+                <div class="skill-box" data-category="tools">
+                    <div class="skill-icon"><i class="devicon-git-plain colored"></i></div>
+                    <h4>Git</h4>
+                    <span class="skill-cat">Tools</span>
+                </div>
+                <div class="skill-box" data-category="tools">
+                    <div class="skill-icon"><i class="devicon-figma-plain colored"></i></div>
+                    <h4>Figma</h4>
+                    <span class="skill-cat">Tools</span>
+                </div>
+                <div class="skill-box" data-category="tools">
+                    <div class="skill-icon"><i class="devicon-linux-plain colored"></i></div>
+                    <h4>Linux</h4>
+                    <span class="skill-cat">Tools</span>
+                </div>
+                <div class="skill-box" data-category="tools">
+                    <div class="skill-icon"><i class="devicon-postman-plain colored"></i></div>
+                    <h4>Postman</h4>
+                    <span class="skill-cat">Tools</span>
+                </div>
+                <div class="skill-box" data-category="tools">
+                    <div class="skill-icon"><i class="devicon-selenium-original colored"></i></div>
+                    <h4>Selenium</h4>
+                    <span class="skill-cat">Tools</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Latest <span>Projects</span></h2>
+            <div class="project-grid">
+                <!-- Project 1 (slseeds.lk) -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/slseeds.png" alt="slseeds.lk">
+                    </div>
+                    <div class="project-info">
+                        <h4>slseeds.lk</h4>
+                        <h5 class="project-subtitle">E-commerce Platform</h5>
+                        <p>A modern e-commerce platform built with Laravel for selling agricultural seeds (vegetables, fruits, and flowers) in Sri Lanka. Includes multi-language support, inventory management, and a dedicated admin portal.</p>
+                        <div class="project-tags">
+                            <span>Laravel</span><span>Blade</span><span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandunkumara163/slseeds.lk" class="btn btn-outline full-width" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 (SLIATE VLMS) -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/vlms.png" alt="SLIATE VLMS">
+                    </div>
+                    <div class="project-info">
+                        <h4>SLIATE VLMS</h4>
+                        <h5 class="project-subtitle">Management System</h5>
+                        <p>Developed a full-stack web application to digitize and automate academic administration and lecturer recruitment as a final-year project. Implemented secure role-based dashboards, and a complete automated payroll module.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandunkumara163/SLIATE-VLMS" class="btn btn-outline full-width" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 (Lecturer Payroll) -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/payroll.png" alt="Lecturer Payroll">
+                    </div>
+                    <div class="project-info">
+                        <h4>Lecturer Payroll & Attendance</h4>
+                        <h5 class="project-subtitle">Desktop Application</h5>
+                        <p>Developed a desktop admin portal to manage lecturer profiles. Automated payroll by parsing biometric CSV logs to calculate working hours with late penalties and export monthly paysheets.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>CustomTkinter</span><span>SQLite</span><span>Pandas</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandunkumara163/Lecturer-Payroll---Attendance-System" class="btn btn-outline full-width" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 (CampingAreas.lk) -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="assets/img/camping.png" alt="CampingAreas.lk">
+                    </div>
+                    <div class="project-info">
+                        <h4>CampingAreas.lk</h4>
+                        <h5 class="project-subtitle">Travel Guide Web App</h5>
+                        <p>Developed a comprehensive front-end web application to discover, promote, and guide users to the best camping areas in Sri Lanka. Implemented a fully responsive user interface featuring district-wise location filtering.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/sandunkumara163/campingAreas.lk" class="btn btn-outline full-width" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">My <span>Journey</span></h2>
+            <div class="timeline-section">
+                <div class="timeline-column">
+                    <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                    <div class="timeline-box">
+                        <div class="timeline-item">
+                            <span class="date">Present</span>
+                            <h4>BSc in Information Technology</h4>
+                            <p>SIBA Campus, Kandy</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2024 - Present</span>
+                            <h4>Higher National Diploma in IT</h4>
+                            <p>SLIATE, ATI - KANDY</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">2025 - Present</span>
+                            <h4>Graphic Design - NVQ Level 4 PT (Reading)</h4>
+                            <p>Nanoda Vocational Training Center, Manikhinna</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-column">
+                    <h3><i class="fas fa-briefcase"></i> Experience & Certifications</h3>
+                    <div class="timeline-box">
+                        <div class="timeline-item">
+                            <span class="date">Current (6 Months)</span>
+                            <h4>IT Department Intern</h4>
+                            <p>NAICC - Department of Agriculture</p>
+                        </div>
+                        <div class="timeline-item">
+                            <span class="date">Certification</span>
+                            <h4>AI Fundamentals</h4>
+                            <p>Issued by LEARN (Lanka Education And Research Network)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact <span>Me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info-text">
+                            <h4>Email</h4>
+                            <p><a href="mailto:sandunkumara163@gmail.com" class="email-link">sandunkumara163@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="info-text">
+                            <h4>Location</h4>
+                            <p>Based in Kandy, Sri Lanka</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll Top Button -->
+    <a href="#" class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Vimukthiya Sandun. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
