@@ -44,7 +44,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Typing effect for the designation
-const texts = ["Full-Stack Software Developer", "Frontend Developer", "Backend Developer", "IT Intern @ NAICC"];
+const texts = ["Full-Stack Software Developer", "Frontend Developer", "Backend Developer", "IT Intern at NAICC"];
 let count = 0;
 let index = 0;
 let currentText = "";
